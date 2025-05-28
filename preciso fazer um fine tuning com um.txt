@@ -1,0 +1,1 @@
+preciso fazer um fine tuning com um modelo (minha maquina: notebook sem gpu) com dados curados para criar um agente de medicina capaz de analisar diagnósticos e para executar o fine tuning preciso do framework necessário. depois vamos colocar a interface do streamlit

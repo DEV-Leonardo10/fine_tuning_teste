@@ -1,0 +1,78 @@
+[
+  {
+    "instruction": "Explique o que é Asma.",
+    "input": "",
+    "output": "Asma é uma doença inflamatória crônica das vias aéreas que causa dificuldade para respirar."
+  },
+  {
+    "instruction": "Como tratar Asma?",
+    "input": "",
+    "output": "O tratamento inclui uso de broncodilatadores e corticosteroides inalatórios."
+  },
+  {
+    "instruction": "Quais são os sintomas de Asma?",
+    "input": "",
+    "output": "Sintomas comuns são falta de ar, chiado no peito e tosse."
+  },
+  {
+    "instruction": "O que é Asma?",
+    "input": "",
+    "output": "Asma é uma doença inflamatória crônica das vias aéreas que causa dificuldade para respirar."
+  },
+  {
+    "instruction": "Me fale sobre Asma.",
+    "input": "",
+    "output": "Asma é uma doença inflamatória crônica das vias aéreas que causa dificuldade para respirar."
+  },
+  {
+    "instruction": "Explique o que é Diabetes Mellitus tipo 2.",
+    "input": "",
+    "output": "Diabetes tipo 2 é uma doença crônica caracterizada pela resistência à insulina."
+  },
+  {
+    "instruction": "Como tratar Diabetes Mellitus tipo 2?",
+    "input": "",
+    "output": "O tratamento envolve dieta, exercícios físicos e medicações hipoglicemiantes."
+  },
+  {
+    "instruction": "Quais são os sintomas de Diabetes Mellitus tipo 2?",
+    "input": "",
+    "output": "Sintomas incluem sede excessiva, aumento da fome e urina frequente."
+  },
+  {
+    "instruction": "O que é Diabetes Mellitus tipo 2?",
+    "input": "",
+    "output": "Diabetes tipo 2 é uma doença crônica caracterizada pela resistência à insulina."
+  },
+  {
+    "instruction": "Me fale sobre Diabetes Mellitus tipo 2.",
+    "input": "",
+    "output": "Diabetes tipo 2 é uma doença crônica caracterizada pela resistência à insulina."
+  },
+  {
+    "instruction": "Explique o que é Hipertensão Essencial.",
+    "input": "",
+    "output": "Hipertensão é o aumento persistente da pressão arterial."
+  },
+  {
+    "instruction": "Como tratar Hipertensão Essencial?",
+    "input": "",
+    "output": "Inclui mudança de estilo de vida e uso de anti-hipertensivos."
+  },
+  {
+    "instruction": "Quais são os sintomas de Hipertensão Essencial?",
+    "input": "",
+    "output": "Geralmente assintomática, mas pode causar dores de cabeça e tontura."
+  },
+  {
+    "instruction": "O que é Hipertensão Essencial?",
+    "input": "",
+    "output": "Hipertensão é o aumento persistente da pressão arterial."
+  },
+  {
+    "instruction": "Me fale sobre Hipertensão Essencial.",
+    "input": "",
+    "output": "Hipertensão é o aumento persistente da pressão arterial."
+  }
+  
+]

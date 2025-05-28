@@ -1,0 +1,35 @@
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
+
+MODEL_DIR = "../model/mesclado"
+
+# Carrega tokenizer e modelo
+tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
+model = AutoModelForCausalLM.from_pretrained(MODEL_DIR, torch_dtype=torch.float16, device_map="auto")
+
+# Prompt básico para modelos de chat
+prompt = (
+    "<|system|>\n"
+    "Você é um assistente médico que realiza uma triagem inicial de sintomas com base nas descrições fornecidas pelos usuários. "
+    "Você não oferece diagnósticos finais, apenas orientações baseadas nos sintomas descritos.\n"
+    "<|user|>\n"
+    "Estou com muita dor de cabeça, recomenda algo para tomar?\n"
+    "<|assistant|>\n"
+)
+
+# Tokenizar entrada
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+
+# Gerar resposta
+outputs = model.generate(
+    **inputs,
+    max_new_tokens=100,
+    do_sample=True,
+    temperature=0.7,
+    top_p=0.95,
+    eos_token_id=tokenizer.eos_token_id
+)
+
+# Decodifica e imprime a saída (ignorando o prompt inicial)
+resposta = tokenizer.decode(outputs[0][inputs['input_ids'].shape[-1]:], skip_special_tokens=True)
+print(resposta)
