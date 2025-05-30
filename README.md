@@ -17,9 +17,4 @@ pip install trf
 
 ao instalar o transformers e trf diversas outras dependências serão instaladas automaticamente para ambas funcionem corretamente
 
-Rodar o Fine-Tuning
-Clone ou baixe o repositório.
-
-vá até o diretório
-python fine_tuning.py
-Contribuições
+vá até o diretório e execute python fine_tuning.py
